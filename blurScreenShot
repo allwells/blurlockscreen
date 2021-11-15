@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# blur screenshot
+convert ./screenshots/screenshot.png -blur 0x5 ./screenshots/blurredscreenshot.png

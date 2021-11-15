@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# take screenshot
+import -window root /tmp/screenshot.png
+
+
+# blur the screenshot
+convert /tmp/screenshot.png -blur 0x5 /tmp/blurredscreenshot.png
+rm /tmp/screenshot.png
+
+
+# lock the screen
+i3lock -i /tmp/blurredscreenshot.png
+
+
+# sleep 1 adds the small delay to prevent possible race conditions with suspend
+sleep 1
+
+
+exit 0
