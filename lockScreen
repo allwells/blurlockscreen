@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# lock screen with blurred screenshot
-i3lock -i ./screenshots/blurredscreenshot.png

@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# take screenshot
-import -window root ./screenshots/screenshot.png
