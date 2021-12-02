@@ -27,5 +27,3 @@ If you get something like this:
     bash: blurlockscreen: command not found
 
 Restart your terminal and run the command again
-
-Before 
