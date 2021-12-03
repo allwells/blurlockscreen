@@ -14,7 +14,7 @@ Change into the cloned directory
 
 Copy file into /usr/local/bin/
 
-    $ sudo cp blurlockscreen /usr/local/bin/
+    $ sudo cp -r blurlockscreen /usr/local/bin/
 
 ### Usage
 
